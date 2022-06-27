@@ -23,7 +23,7 @@ x0 = np.linspace(145, 185, 2)#trả về khoản giá trị cần vẽ hàm
 y0 = w_0 + w_1*x0
 
 #vẽ hàm
-plt.plot(X, y, 'ro')     # dữ liệu ro là red điểm trên đồ thị là chấm, có thể thay đổi thành g: green, b: blue +, x để thành dấu +, x
+plt.plot(X, y, 'ro')     # dữ liệu ro là red điểm trên đồ thị là chấm, có thể thay đổi thành g: green, b: blue +, x, s để thành dấu +, x, ô vuông
 plt.plot(x0, y0)               # đường dự đoán
 plt.axis([140, 190, 45, 75])
 plt.xlabel('Height (cm)')
